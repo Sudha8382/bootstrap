@@ -1,0 +1,181 @@
+Bootstrap color
+===============
+primary
+secondary
+info
+success
+danger 
+warning
+dark
+light
+-----------------
+Background color
+=================
+bg-colorname
+----------------------km
+bg-danger
+bg-success
+bg-dark
+bg-light
+------------------
+text-colorname
+text-danger
+text-light
+text-dark
+text-info
+------------------
+font-size
+fs-(1-5)
+
+fs-1
+fs-2
+fs-3
+fs-4
+fs-5
+--------------------
+text-align
+
+BS4
+ textleft  => text-left 
+textright => text-right 
+textcenter => text-center
+
+BSV5 =>  textleft => text-start  | textcenter => text-center | textright => text-end
+------------------------------
+Heading
+========
+h1 - h6
+
+background with text color
+
+text-bg-colorname
+text-bg-danger
+text-bg-success
+text-bg-warning
+text-bg-dark
+text-bg-light
+=======================
+text-transform:uppercase | lowercase | capitalize
+-----------------------
+text-uppercase
+text-lowercase
+text-capitalize
+----------------------
+Bootstrap Button
+
+btn btn-colorname
+btn btn-danger
+btn btn-success
+btn btn-info
+btn btn-dark
+btn btn-light
+
+btn btn-outline-colorname
+btn btn-danger
+btn btn-success
+btn btn-info
+btn btn-dark
+btn btn-light
+
+-------------
+paddig:
+BSV 4
+-----------------
+P-(0-5)=>padding-left|| padding-right||padding-top||padding-bottom.
+p1-(0-5)=>padding-left
+pr-(0-5)=>padding-right
+pt-(0-5)=>padding-top
+
+pb-(0-5)=>padding-bottom
+px-(0-5)=>padding-left and padding-right
+py-(0-5)=>padding-top and padding-bottom
+
+
+BSV 5
+------------
+
+P-(0-5)=>padding-start|| padding-end||padding-top||padding-bottom.
+ps-(0-5)=>padding-start
+pe-(0-5)=>padding-end
+pt-(0-5)=>padding-top
+pb-(0-5)=>padding-bottom
+px-(0-5)=>padding-start and padding-end
+py-(0-5)=>padding-top and padding-bottom
+
+row
+col
+1 row=>12 col;
+-----------------------------------------------------------------------------------------
+10AUGUST-2024
+========================================================================================
+form-control=>control form- for responsive form 
+
+<div class="input-group">
+<span class="input-group-text">NAME</span>
+<input type="text"class="form-control">
+</div>
+--------------------------------------------------------------
+break point-view port
+=============
+sm =>small screen <576px(smart phone)
+md =>medium screen <768px(tab)
+lg =>large screen <992px(laptop desktop)
+xl =>extra large <1200px
+xxl =>double extra large <1400px
+
+col-sm-12
+--------------------------------------------------------------
+to create variable in css
+==========================
+:root {
+            --mycolor: #00a000;
+        }
+        .bg-mycolor {
+            background: var(--mycolor) ! important;
+        }
+        .txt-mycolor {
+            color: var(--mycolor) ! important;
+        }
+----------------------------------------------------------------------
+
+border border-(0-5) color-colorname
+border border-3 border-danger
+===========================
+data-bs-interval="timein millisecond"
+1s=1000ms
+==============================
+rounded-top-(0-5)
+rounded
+rounded-bottom-4
+rounded-start
+rounded-end-5
+rounded-circle
+rounded
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
